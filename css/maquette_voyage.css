@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    color: white;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+}
+article,marquee{
+    background: linear-gradient(
+        0deg,
+        rgba(34, 193, 195, 1) 0%,
+        rgba(45, 253, 149, 0.681) 100%
+);
+}
+.title{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+.title img{
+    width: 4%;
+}
+
+.title h1{
+    margin-left: 2%;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style-type: none;
+    padding-right: 35px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+marquee{
+    margin: 0 3px;
+}
+.line{
+    margin: 0.3%;
+    border: 0.3px solid #2AC1C1;
+}
