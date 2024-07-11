@@ -1,83 +1,5 @@
 
-section {
-    padding: 0 10%;
-    display: flex;
-    flex-direction: column;
-}
-
-.image_L {
-    padding: 2% 2% 2% 10%;
-    margin-bottom: 2%;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 15px;
-    background: linear-gradient(
-        0deg,
-        rgba(191, 129, 148, 1) 0%,
-        rgba(86, 166, 241, 1) 100%
-        );
-}
-
-.image_L img {
-    border-radius: 156px;
-    width: 27%;
-    height: 229px;
-
-}
-
-
-.image_C {
-    padding: 2% 10% 2% 2%;
-    margin-bottom: 2%;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-evenly;
-    background: linear-gradient(
-        0deg,
-        rgba(97, 227, 194, 1) 0%,
-        rgba(70, 134, 195, 1) 100%
-        );
-}
-
-.image_C img {
-    border-radius: 156px;
-    width: 27%;
-    height: 229px;
-
-}
-
-
-.image_R {
-    padding: 2% 2% 2% 10%;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-evenly;
-    background: linear-gradient(
-        0deg,
-        rgba(226, 132, 23, 1) 0%,
-        rgba(92, 144, 181, 1) 75%
-        );
-}
-
-.image_R img {
-    border-radius: 156px;
-    width: 27%;
-    height: 229px;
-
-}
-
-.titreP {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.text {
-    width: 43%;
-    display: flex;
-    flex-direction: column;
-}
-
+/* Johanis */
 
 *{
     margin: 0;
@@ -128,4 +50,243 @@ marquee{
 .line{
     margin: 0.3%;
     border: 0.3px solid #2AC1C1;
+}
+
+/* Johanis */
+
+/* -------------------------------------------------- */
+
+/* Hugo */
+
+section {
+    margin: 2% 0;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image_L {
+    padding: 2% 2% 15% 10%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    background: linear-gradient(
+        0deg,
+        rgba(191, 129, 148, 1) 0%,
+        rgba(86, 166, 241, 1) 100%
+        );
+}
+
+.image_L img {
+    border-radius: 50%;
+    width: 18%;
+    height: 229px;
+}
+
+
+.image_C {
+    padding: 2% 10% 15% 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(
+        0deg,
+        rgba(97, 227, 194, 1) 0%,
+        rgba(70, 134, 195, 1) 100%
+        );
+}
+
+.image_C img {
+    border-radius: 50%;
+    width: 18%;
+    height: 229px;
+
+}
+
+
+.image_R {
+    padding: 2% 2% 15% 10%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(
+        0deg,
+        rgba(226, 132, 23, 1) 0%,
+        rgba(92, 144, 181, 1) 75%
+        );
+}
+
+.image_R img {
+    border-radius: 50%;
+    width: 18%;
+    height: 229px;
+
+}
+
+.titreP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+/* Hugo */
+
+
+/* -------------------------- Responsive --------------------------------- */
+
+
+/* Johanis */
+
+@media screen and (max-width: 768px) {
+    
+    *{
+        margin: 0;
+        color: white;
+    }
+    article{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    article,marquee{
+        background: linear-gradient(
+            0deg,
+            rgba(34, 193, 195, 1) 0%,
+            rgba(45, 253, 149, 0.681) 100%
+    );
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        padding-left: 1%;
+    }
+    .title img{
+        width: 4%;
+    }
+
+    .title h1{
+        margin-left: 2%;
+    }
+
+    .menu ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu ul li{
+        list-style-type: none;
+        padding-right: 35px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+    }
+    marquee{
+        margin: 0 3px;
+    }
+    .line{
+        margin: 0.3%;
+        border: 0.3px solid #2AC1C1;
+    }
+
+/* Johanis */
+
+/* -------------------------------------------------- */
+
+/* Hugo */
+
+
+    section {
+
+    }
+    
+    .image_L {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(
+            0deg,
+            rgba(191, 129, 148, 1) 0%,
+            rgba(86, 166, 241, 1) 100%
+            );
+    }
+
+    .image_L img {
+        width: 43%;
+    }
+
+    .image_L .titreP {
+        display: flex;
+        align-items: flex-start;
+        padding-right: 20%;
+    }
+
+
+    .image_C {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        background: linear-gradient(
+            0deg,
+            rgba(97, 227, 194, 1) 0%,
+            rgba(70, 134, 195, 1) 100%
+            );
+    }
+
+    .image_C img {
+        width: 43%;
+    }
+
+    .image_C .titreP {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .image_R {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        background: linear-gradient(
+            0deg,
+            rgba(226, 132, 23, 1) 0%,
+            rgba(92, 144, 181, 1) 75%
+            );
+    }
+
+    .image_R img {
+        width: 43%;
+    }
+
+    .image_R .titreP {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .titreP {
+        /* padding: 5%; */
+        padding: 5% 6%;
+    }
+
+    .text {
+        width: 110%;
+    }
+
+/* Hugo */
+
 }
